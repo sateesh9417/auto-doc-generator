@@ -1,0 +1,16 @@
+<div class="welcome-block">
+  <div>
+    <h1>Automated Documentation Generator</h1>
+    <p>This tool helps you generate documentation easily. Just enter your content below and click "Generate Document."
+    </p>
+
+    <div class="main-block">
+      <form (ngSubmit)="generateDocument()">
+        <label for="htmlContent">Enter your content</label>
+        <textarea placeholder="Enter your content here..." #htmlContentInput id="htmlContent" name="htmlContent"
+          [(ngModel)]="htmlContent" required></textarea>
+        <button [disabled]="htmlContent==''" type="submit">Generate Document</button>
+      </form>
+    </div>
+  </div>
+</div>

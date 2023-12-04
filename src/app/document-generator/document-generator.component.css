@@ -1,0 +1,78 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-block {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #4f4f4e;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ffff;
+}
+
+textarea {
+  height: 250px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  background-color: #40be44;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #70ad73;
+  cursor: default;
+}
+
+button:not(:disabled):hover {
+  background-color: #45a049;
+}
+
+.welcome-block {
+  text-align: center;
+  background-image: url("https://cdn.pixabay.com/photo/2020/12/28/10/57/artificial-intelligence-5866644_640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #4CAF50;
+}
+
+p {
+  color: #eed9d9;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
