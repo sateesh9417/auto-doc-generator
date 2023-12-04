@@ -1,0 +1,29 @@
+{
+  "name": "auto-doc-generator-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "axios": "^1.6.2",
+    "axios-retry": "^4.0.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "html-docx": "^1.2.0",
+    "html-docx-js": "^0.3.1",
+    "mammoth": "^1.6.0",
+    "nodemon": "^3.0.2",
+    "openai": "^4.20.1"
+  }
+}
